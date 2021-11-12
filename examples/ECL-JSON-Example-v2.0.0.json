@@ -1,260 +1,257 @@
 {
-    "title": "title of the resource",
-    "description": "the description of the resource",
-    "catalog": "CZNet",
-    "type": "dataset",
-    "status": "incomplete",
-    "identifiers": [
-      {
-        "scheme": "DOI",
-        "schemeURI": "https://doi.org/",
-        "identifier": "10.1594/IEDA/100033",
-        "url": " https://doi.org/10.1594/IEDA/100033"
-      }
-    ],
-    "date": {
-      "dateCreated": "2012-01-13",
-      "datePublished": "2018-03-21",
-      "dataModified": "2013-01-13",
-      "lastReviewed": "2014-01-13"
-    },
-    "additionalTypes": [
-      "Petrology",
-      "Chemistry"
-    ],
+  "title": "title of the resource",
+  "description": "the description of the resource",
+  "catalog": "CZNet",
+  "type": "dataset",
+  "status": "incomplete",
+  "identifiers": [
+    {
+      "scheme": "DOI",
+      "schemeURI": "https://doi.org/",
+      "identifier": "10.1594/IEDA/100033",
+      "url": " https://doi.org/10.1594/IEDA/100033"
+    }
+  ],
+  "dateCreated": "2012-01-13",
+  "datePublished": "2018-03-21",
+  "dateModified": "2013-01-13",
+  "additionalTypes": [
+    "Petrology",
+    "Chemistry"
+  ],
+  "keywords": [
+    "keyword 1",
+    "keyword 2"
+  ],
+  "spatialCoverage": {
+    "coverage": "Global",
     "keywords": [
-      "keyword 1",
-      "keyword 2"
+      "geoKeyword 1",
+      "geoKeyword 2"
     ],
-    "spatialCoverage": {
-      "coverage": "Global",
-      "keywords": [
-        "geoKeyword 1",
-        "geoKeyword 2"
-      ],
-      "features": [
-        {
-          "geometry": {
-            "type": "Point",
-            "coordinates": [
+    "features": [
+      {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            102,
+            0.5
+          ]
+        }
+      },
+      {
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
               102,
-              0.5
+              0
+            ],
+            [
+              103,
+              1
+            ],
+            [
+              104,
+              0
+            ],
+            [
+              105,
+              1
             ]
-          }
-        },
-        {
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
+          ]
+        }
+      },
+      {
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
               [
-                102,
+                100,
                 0
               ],
               [
-                103,
-                1
-              ],
-              [
-                104,
+                101,
                 0
               ],
               [
-                105,
+                101,
                 1
-              ]
-            ]
-          }
-        },
-        {
-          "geometry": {
-            "type": "Polygon",
-            "coordinates": [
+              ],
               [
-                [
-                  100,
-                  0
-                ],
-                [
-                  101,
-                  0
-                ],
-                [
-                  101,
-                  1
-                ],
-                [
-                  100,
-                  1
-                ],
-                [
-                  100,
-                  0
-                ]
+                100,
+                1
+              ],
+              [
+                100,
+                0
               ]
             ]
+          ]
+        }
+      }
+    ]
+  },
+  "language": "English",
+  "creators": [
+    {
+      "familyName": "JI",
+      "givenName": "PENG",
+      "email": "test@gmail.com",
+      "identifiers": [
+        {
+          "scheme": "ORCID",
+          "schemeURI": "https://orcid.org/",
+          "identifier": "****-****-****-****",
+          "url": "https://orcid.org/****-****-****-****"
+        }
+      ],
+      "affiliation": {
+        "name": "Columbia University",
+        "identifiers": [
+          {
+            "scheme": "ROR",
+            "schemeURI": "https://ror.org/",
+            "identifier": "00hj8s172",
+            "url": "https://ror.org/00hj8s172"
           }
+        ]
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "type": "leadAuthor",
+      "familyName": "c1",
+      "givenName": "c1",
+      "email": "c1@gmail.com",
+      "identifiers": [
+        {
+          "scheme": "ORCID",
+          "schemeURI": "https://orcid.org/",
+          "identifier": "****-****-****-****",
+          "url": "https://orcid.org/****-****-****-****"
         }
       ]
     },
-    "language": "English",
-    "creators": [
-      {
-        "familyName": "JI",
-        "givenName": "PENG",
-        "email": "test@gmail.com",
-        "identifiers": [
-          {
-            "scheme": "ORCID",
-            "schemeURI": "https://orcid.org/",
-            "identifier": "****-****-****-****",
-            "url": "https://orcid.org/****-****-****-****"
-          }
-        ],
-        "affiliation": {
-          "name": "Columbia University",
-          "identifiers": [
-            {
-              "scheme": "ROR",
-              "schemeURI": "https://ror.org/",
-              "identifier": "00hj8s172",
-              "url": "https://ror.org/00hj8s172"
-            }
-          ]
-        }
-      }
-    ],
-    "contributors": [
-      {
-        "type": "leadAuthor",
-        "familyName": "c1",
-        "givenName": "c1",
-        "email": "c1@gmail.com",
-        "identifiers": [
-          {
-            "scheme": "ORCID",
-            "schemeURI": "https://orcid.org/",
-            "identifier": "****-****-****-****",
-            "url": "https://orcid.org/****-****-****-****"
-          }
-        ]
-      },
-      {
-        "type": "coAuthor",
-        "familyName": "c2",
-        "givenName": "c2",
-        "email": "c2@gmail.com",
-        "identifiers": [
-          {
-            "scheme": "ORCID",
-            "schemeURI": "https://orcid.org/",
-            "value": "****-****-****-****",
-            "url": "https://orcid.org/****-****-****-****"
-          }
-        ]
-      }
-    ],
-    "relatedResources": [
-      {
-        "bibliographicCitation": "Doe J (2014). Title. Publisher.",
-        "identifiers": [
-          {
-            "scheme": "DOI",
-            "schemeURI": "https://doi.org/",
-            "identifier": "10.1093/astrogeo/att121",
-            "url": "https://doi.org/10.1093/astrogeo/att121"
-          }
-        ],
-        "relation": "isDocumentedBy",
-        "type": "publication"
-      },
-      {
-        "bibliographicCitation": "IGSN:DSR000VS0",
-        "identifiers": [
-          {
-            "scheme": "IGSN",
-            "schemeURI": "https://app.geosamples.org/sample/igsn/",
-            "identifier": "DSR000VS0",
-            "url": "https://app.geosamples.org/sample/igsn/DSR000VS0"
-          }
-        ],
-        "relation": "isCitedBy",
-        "type": "physicalSample"
-      },
-      {
-        "bibliographicCitation": "SVN:352090",
-        "identifiers": [
-          {
-            "scheme": "SVN",
-            "schemeURI": "https://volcano.si.edu/volcano.cfm?vn=",
-            "identifier": "352090",
-            "url": "https://volcano.si.edu/volcano.cfm?vn=352090"
-          }
-        ],
-        "relation": "isCitedBy",
-        "type": "volcano"
-      }
-    ],
-    "fundings": [
-      {
-        "identifier": "2026916",
-        "funder": {
-          "name": "National Science Foundation",
-          "identifiers": [
-            {
-              "scheme": "Crossref Funder ID",
-              "schemeURI": "https://doi.org/",
-              "identifier": "10.13039/100000001",
-              "url": "https://doi.org/10.13039/100000001"
-            },
-            {
-              "scheme": "ROR",
-              "schemeURI": "https://ror.org/",
-              "identifier": "021nxhr62",
-              "url": "https://ror.org/021nxhr62"
-            }
-          ]
-        },
-        "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2026916"
-      }
-    ],
-    "files": [
-      {
-        "name": "file1.txt",
-        "fileID": "1234",
-        "description": "description of file1",
-        "format": ".txt",
-        "position": 1,
-        "size": "10kB",
-        "checksum": "8204e29a0c6a745f936c7246e27ed46ffb75cb2a",
-        "uploadDate": "2014-10-01"
-      },
-      {
-        "name": "file2.csv",
-        "fileID": "3235",
-        "description": "description of file2",
-        "format": ".csv",
-        "position": 2,
-        "size": "1.01MB",
-        "checksum": "************",
-        "uploadDate": "2014-11-01"
-      }
-    ],
-    "licence": {
-      "name": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States",
-      "alternateName": "CC BY-NC-SA 3.0",
+    {
+      "type": "coAuthor",
+      "familyName": "c2",
+      "givenName": "c2",
+      "email": "c2@gmail.com",
       "identifiers": [
         {
-          "scheme": "CC License ID",
-          "schemeURI": "https://creativecommons.org/licenses/",
-          "identifier": "by-nc-sa/3.0/us",
-          "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0"
-        },
-        {
-          "scheme": "SPDX License ID",
-          "schemeURI": "https://spdx.org/licenses/",
-          "identifier": "CC-BY-NC-SA-3.0",
-          "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0"
+          "scheme": "ORCID",
+          "schemeURI": "https://orcid.org/",
+          "value": "****-****-****-****",
+          "url": "https://orcid.org/****-****-****-****"
         }
       ]
     }
+  ],
+  "relatedResources": [
+    {
+      "bibliographicCitation": "Doe J (2014). Title. Publisher.",
+      "identifiers": [
+        {
+          "scheme": "DOI",
+          "schemeURI": "https://doi.org/",
+          "identifier": "10.1093/astrogeo/att121",
+          "url": "https://doi.org/10.1093/astrogeo/att121"
+        }
+      ],
+      "relation": "isDocumentedBy",
+      "type": "publication"
+    },
+    {
+      "bibliographicCitation": "IGSN:DSR000VS0",
+      "identifiers": [
+        {
+          "scheme": "IGSN",
+          "schemeURI": "https://app.geosamples.org/sample/igsn/",
+          "identifier": "DSR000VS0",
+          "url": "https://app.geosamples.org/sample/igsn/DSR000VS0"
+        }
+      ],
+      "relation": "isCitedBy",
+      "type": "physicalSample"
+    },
+    {
+      "bibliographicCitation": "SVN:352090",
+      "identifiers": [
+        {
+          "scheme": "SVN",
+          "schemeURI": "https://volcano.si.edu/volcano.cfm?vn=",
+          "identifier": "352090",
+          "url": "https://volcano.si.edu/volcano.cfm?vn=352090"
+        }
+      ],
+      "relation": "isCitedBy",
+      "type": "volcano"
+    }
+  ],
+  "fundings": [
+    {
+      "identifier": "2026916",
+      "funder": {
+        "name": "National Science Foundation",
+        "identifiers": [
+          {
+            "scheme": "Crossref Funder ID",
+            "schemeURI": "https://doi.org/",
+            "identifier": "10.13039/100000001",
+            "url": "https://doi.org/10.13039/100000001"
+          },
+          {
+            "scheme": "ROR",
+            "schemeURI": "https://ror.org/",
+            "identifier": "021nxhr62",
+            "url": "https://ror.org/021nxhr62"
+          }
+        ]
+      },
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2026916"
+    }
+  ],
+  "files": [
+    {
+      "name": "file1.txt",
+      "fileID": "1234",
+      "description": "description of file1",
+      "format": ".txt",
+      "position": 1,
+      "size": "10kB",
+      "checksum": "8204e29a0c6a745f936c7246e27ed46ffb75cb2a",
+      "uploadDate": "2014-10-01"
+    },
+    {
+      "name": "file2.csv",
+      "fileID": "3235",
+      "description": "description of file2",
+      "format": ".csv",
+      "position": 2,
+      "size": "1.01MB",
+      "checksum": "************",
+      "uploadDate": "2014-11-01"
+    }
+  ],
+  "licence": {
+    "name": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States",
+    "alternateName": "CC BY-NC-SA 3.0",
+    "identifiers": [
+      {
+        "scheme": "CC License ID",
+        "schemeURI": "https://creativecommons.org/licenses/",
+        "identifier": "by-nc-sa/3.0/us",
+        "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0"
+      },
+      {
+        "scheme": "SPDX License ID",
+        "schemeURI": "https://spdx.org/licenses/",
+        "identifier": "CC-BY-NC-SA-3.0",
+        "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0"
+      }
+    ]
   }
+}
