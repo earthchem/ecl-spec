@@ -1,0 +1,69 @@
+{
+    "description":"Funders supported by ECL/Astro Repo JSON Schema 2.0.",
+    "data": [
+        {
+            "name": "Alfred P. Sloan Foundation",
+            "alternateName":"SLOAN",
+            "country":"United States",
+            "url":"https://ror.org/052csg198"
+
+        },
+        {
+            "name": "National Science Foundation",
+            "alternateName":"NSF",
+            "country":"United States",
+            "url":"https://ror.org/021nxhr62"
+
+        },
+        {
+            "name": "U.S. Department of Energy",
+            "alternateName":"DOE",
+            "country":"United States",
+            "url":"https://ror.org/01bj3aw27"
+
+        },
+        {
+            "name": "National Aeronautics and Space Administration",
+            "alternateName":"NASA",
+            "country":"United States",
+            "url":"https://ror.org/027ka1x80"
+        },
+        {
+            "name": "European Research Council",
+            "alternateName":"ERC",
+            "country":"Belgium",
+            "url":"https://ror.org/0472cxd90"
+
+        },
+        {
+            "name":"Deutsche Forschungsgemeinschaft",
+            "alternateName":"DFG",
+            "country":"Germany",
+            "url":"https://ror.org/018mejw64"
+        },
+        {
+            "name":"National Natural Science Foundation of China",
+            "alternateName":"NSFC",
+            "country":"China",
+            "url":"https://ror.org/01h0zpd94"
+        },
+        {
+            "name":"Australian Research Council",
+            "alternateName":"ARC",
+            "country":"Australia",
+            "url":"https://ror.org/05mmh0f86"
+        },
+        {
+            "name":"Russian Science Foundation",
+            "alternateName":"RSCF",
+            "country":"Russia",
+            "url":"https://ror.org/03y2gwe85"
+        },
+        {
+            "name":"Natural Environment Research Council",
+            "alternateName":"NERC",
+            "country":"United Kingdom",
+            "url":"https://ror.org/02b5d8509"
+        }
+    ]
+}
