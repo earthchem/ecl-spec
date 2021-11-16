@@ -420,6 +420,10 @@
                     "email": {
                         "type": "string"
                     },
+                    "position":{
+                        "description": "The position of a person in a sequence of contributors.",
+                        "type":"integer"
+                    },
                     "identifiers": {
                         "description": "Identifier for the contributor.",
                         "type": "array",
@@ -737,7 +741,7 @@
                         "type": "string"
                     },
                     "position": {
-                        "description": "Order sequence of the uploading file.",
+                        "description": "The position of a file in a sequence of all uploading files.",
                         "type": "integer"
                     },
                     "size": {
