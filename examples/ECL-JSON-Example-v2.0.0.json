@@ -166,7 +166,7 @@
           "url": "https://doi.org/10.1093/astrogeo/att121"
         }
       ],
-      "relation": "isDocumentedBy",
+      "relation": "isReferencedBy",
       "type": "publication"
     },
     {
@@ -179,7 +179,7 @@
           "url": "https://app.geosamples.org/sample/igsn/DSR000VS0"
         }
       ],
-      "relation": "isCitedBy",
+      "relation": "isReferencedBy",
       "type": "physicalSample"
     },
     {
@@ -192,7 +192,7 @@
           "url": "https://volcano.si.edu/volcano.cfm?vn=352090"
         }
       ],
-      "relation": "isCitedBy",
+      "relation": "isReferencedBy",
       "type": "volcano"
     }
   ],
