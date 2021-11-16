@@ -3,12 +3,14 @@
     "data": [
         {
             "name": "Digital Object Identifier",
+            "description": "Digital Object Identifier; a character string used to uniquely identify an object. A DOI name is divided into two parts, a prefix and a suffix, separated by a slash.",
             "alternateName": "DOI",
             "url": "https://doi.org/",
             "category": "publication"
         },
         {
             "name": "Bibliographic code",
+            "description": "Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa.",
             "alternateName": "Bibcode",
             "url": "https://ui.adsabs.harvard.edu/abs/",
             "category": "publication"
@@ -18,7 +20,7 @@
             "alternateName": "CFID",
             "url": "https://doi.org/",
             "category": "organization"
-        },      
+        },
         {
             "name": "R2R Cruise ID",
             "alternateName": "R2R",
@@ -45,6 +47,7 @@
         },
         {
             "name": "International Global Sample Number",
+            "description": "International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.",
             "alternateName": "IGSN",
             "url": "https://app.geosamples.org/sample/igsn/",
             "category": "physicalSample"
