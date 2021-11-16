@@ -1,0 +1,53 @@
+{
+    "description": "Data types supported by ECL/Astro Repo JSON Schema 2.0.",
+    "data": [
+        {
+            "name": "Chemistry"
+        },
+        {
+            "name": "Chemistry:Rock"
+        },
+        {
+            "name": "Chemistry:Sediment"
+        },
+        {
+            "name": "Chemistry:Fluid"
+        },
+        {
+            "name": "Chemistry:Gas"
+        },
+        {
+            "name": "Chemistry:ClumpedIsotope"
+        },
+        {
+            "name": "Geochronology"
+        },
+        {
+            "name": "Kinetics"
+        },
+        {
+            "name": "ModelData"
+        },
+        {
+            "name": "Petrography"
+        },
+        {
+            "name": "Petrology"
+        },
+        {
+            "name": "Petrology:Mineral"
+        },
+        {
+            "name": "Petrology:Experimental"
+        },
+        {
+            "name": "SampleInfo"
+        },
+        {
+            "name": "SocialScience"
+        },
+        {
+            "name": "Other"
+        }      
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "description": "The relationship of the resource being registered (A) and the related resource (B). Value comes from DataCite RelationType vocabulary(https://support.datacite.org/docs/relationtype_for_citation).",
+    "data": [
+        {
+            "name": "isCitedBy"
+        },
+        {
+            "name": "cites"
+        },
+        {
+            "name": "isSupplementTo"
+        },
+        {
+            "name": "isSupplementedBy"
+        },
+        {
+            "name": "isContinuedBy"
+        },
+        {
+            "name": "continues"
+        },
+        {
+            "name": "isDescribedBy"
+        },
+        {
+            "name": "describes"
+        },
+        {
+            "name": "hasMetadata"
+        },
+        {
+            "name": "isMetadataFor"
+        },
+        {
+            "name": "isNewVersionOf"
+        },
+        {
+            "name": "isPreviousVersionOf"
+        },
+        {
+            "name": "isPartOf"
+        },
+        {
+            "name": "hasPart"
+        },
+        {
+            "name": "isReferencedBy"
+        },
+        {
+            "name": "references"
+        },
+        {
+            "name": "isDocumentedBy"
+        },
+        {
+            "name": "documents"
+        },
+        {
+            "name": "isCompiledBy"
+        },
+        {
+            "name": "compiles"
+        },
+        {
+            "name": "isVariantFormOf"
+        },
+        {
+            "name": "isOrignialFormOf"
+        },
+        {
+            "name": "isIdenticalTo"
+        },
+        {
+            "name": "isReviewedBy"
+        },
+        {
+            "name": "reviews"
+        },
+        {
+            "name": "isDerivedFrom"
+        },
+        {
+            "name": "isSourceOf"
+        },
+        {
+            "name": "requires"
+        },
+        {
+            "name": "isRequiredBy"
+        },
+        {
+            "name": "isObsoletedBy"
+        },
+        {
+            "name": "obsoletes"
+        },
+        {
+            "name": "isPublishedIn"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "description": "Progress status of resource supported by ECL/Astro Repo JSON Schema 2.0",
+    "data": [
+        {
+            "name": "incomplete",
+            "description": "Started and saved by user, not yet submitted for review."
+        },
+        {
+            "name": "submitted",
+            "description": "Submitted by user for review, not yet published."
+        },
+        {
+            "name": "published",
+            "description": "Approved by ECL staff, DOI assigned (unless user opted out), metadata viewable on the ECL interface. If after Release Date, file(s) available for download."
+        },
+        {
+            "name": "rejected",
+            "description": "Submitted by user but rejected by ECL (e.g., inappropriate content)."
+        },
+        {
+            "name": "archived",
+            "description": "A previously public submission that has since been archived and is no longer available for metadata view or file download."
+        },
+        {
+            "name": "external resource",
+            "description": "Not to be displayed in ECL interface e.g., outside agreement with CSDMS."
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "description": "Languages supported by ECL/Astro Repo JSON Schema 2.0, subset of ISO 639-3",
+    "data": [
+        {
+            "name":"Arabic",
+            "alternateName":"ara",
+            "url":"https://iso639-3.sil.org/code/ara"
+        },
+        {
+            "name":"Bulgarian",
+            "alternateName":"bul",
+            "url": "https://iso639-3.sil.org/code/bul"
+        },
+        {
+            "name":"Chinese",
+            "alternateName":"zho",
+            "url":"https://iso639-3.sil.org/code/zho"
+        },
+        {
+            "name":"Croatian",
+            "alternateName":"hrv",
+            "url":"https://iso639-3.sil.org/code/hrv"
+        },
+        {
+            "name":"Czech",
+            "alternateName":"ces",
+            "url":"https://iso639-3.sil.org/code/ces"
+        },
+        {
+            "name":"Danish",
+            "alternateName":"dan",
+            "url":"https://iso639-3.sil.org/code/dan"
+        },
+        {
+            "name":"Dutch",
+            "alternateName":"nld",
+            "url":"https://iso639-3.sil.org/code/nld"
+        },        {
+            "name":"English",
+            "alternateName":"eng",
+            "url":"https://iso639-3.sil.org/code/eng"
+        },        {
+            "name":"Finnish",
+            "alternateName":"fin",
+            "url":"https://iso639-3.sil.org/code/fin"
+        },        {
+            "name":"French",
+            "alternateName":"fra",
+            "url":"https://iso639-3.sil.org/code/fra"
+        },        {
+            "name":"German",
+            "alternateName":"deu",
+            "url":"https://iso639-3.sil.org/code/deu"
+        },        {
+            "name":"Greek",
+            "alternateName":"ell",
+            "url":"https://iso639-3.sil.org/code/ell"
+        },        {
+            "name":"Hindi",
+            "alternateName":"hin",
+            "url":"https://iso639-3.sil.org/code/hin"
+        },        {
+            "name":"Italian",
+            "alternateName":"ita",
+            "url":"https://iso639-3.sil.org/code/ita"
+        },        {
+            "name":"Japanese",
+            "alternateName":"jpn",
+            "url":"https://iso639-3.sil.org/code/jpn"
+        },        {
+            "name":"Korean",
+            "alternateName":"kor",
+            "url":"https://iso639-3.sil.org/code/kor"
+        },        {
+            "name":"Norwegian",
+            "alternateName":"nor",
+            "url":"https://iso639-3.sil.org/code/nor"
+        },        {
+            "name":"Polish",
+            "alternateName":"pol",
+            "url":"https://iso639-3.sil.org/code/pol"
+        },        {
+            "name":"Portuguese",
+            "alternateName":"por",
+            "url":"https://iso639-3.sil.org/code/por"
+        },        {
+            "name":"Russian",
+            "alternateName":"rus",
+            "url":"https://iso639-3.sil.org/code/rus"
+        },        {
+            "name":"Spanish",
+            "alternateName":"spa",
+            "url":"https://iso639-3.sil.org/code/spa"
+        },        {
+            "name":"Swedish",
+            "alternateName":"swe",
+            "url":"https://iso639-3.sil.org/code/swe"
+        }
+    ]
+}

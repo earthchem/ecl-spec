@@ -1,0 +1,59 @@
+{
+    "description": "Persistent identifier schemes supported by ECL/Astro Repo JSON Schema 2.0",
+    "data": [
+        {
+            "name": "Digital Object Identifier",
+            "alternateName": "DOI",
+            "url": "https://doi.org/",
+            "category": "publication"
+        },
+        {
+            "name": "Bibliographic code",
+            "alternateName": "Bibcode",
+            "url": "https://ui.adsabs.harvard.edu/abs/",
+            "category": "publication"
+        },
+        {
+            "name": "Crossref Funder ID",
+            "alternateName": "CFID",
+            "url": "https://doi.org/10.13039/",
+            "category": "organization"
+        },      
+        {
+            "name": "R2R Cruise ID",
+            "alternateName": "R2RCID",
+            "url": "https://doi.org/10.7284/",
+            "category": "cruise"
+        },
+        {
+            "name": "Open Researcher and Contributor ID",
+            "alternateName": "ORCID",
+            "url": "https://orcid.org/",
+            "category": "person"
+        },
+        {
+            "name": "Research Organization Registry",
+            "alternateName": "ROR",
+            "url": "https://ror.org/",
+            "category": "organization"
+        },
+        {
+            "name": "The Software Package Data Exchange License ID",
+            "alternateName": "SPDX",
+            "url": "https://spdx.org/licenses/",
+            "category": "license"
+        },
+        {
+            "name": "International Global Sample Number",
+            "alternateName": "IGSN",
+            "url": "https://app.geosamples.org/sample/igsn/",
+            "category": "physicalSample"
+        },
+        {
+            "name": "Smithsonian Volcano Number",
+            "alternateName": "SVN",
+            "url": "https://volcano.si.edu/volcano.cfm?vn=",
+            "category": "volcano"
+        }
+    ]
+}

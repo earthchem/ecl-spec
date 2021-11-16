@@ -1,0 +1,44 @@
+{
+    "description": "Communities supported by ECL/Astro Repo JSON Schema 2.0.",
+    "data": [
+        {
+            "name": "VentDB"
+        },
+        {
+            "name": "PetDB"
+        },
+        {
+            "name": "SedDB"
+        },
+        {
+            "name": "Unknown"
+        },
+        {
+            "name": "Critical Zone Observatory"
+        },
+        {
+            "name": "Deep Lithosphere"
+        },
+        {
+            "name": "Geochemistry & Petrology"
+        },
+        {
+            "name": "Cosmochemistry"
+        },
+        {
+            "name": "Geochronology"
+        },
+        {
+            "name": "Experimental Petrology"
+        },
+        {
+            "name": "Tephra Data"
+        },
+        {
+            "name": "Clumped Isotopes"
+        },
+        {
+            "name": "CZNet"
+        }
+    ]
+}

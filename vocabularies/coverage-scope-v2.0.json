@@ -1,0 +1,17 @@
+{
+    "description":"Coverage scope supported by ECL/Astro Repo JSON Schema 2.0.",
+    "data": [
+        {
+            "name": "Space/Planetary"
+        },
+        {
+            "name": "Global"
+        },
+        {
+            "name": "Regional (Continents, Oceans)"
+        },
+        {
+            "name": "Other"
+        }
+    ]
+}

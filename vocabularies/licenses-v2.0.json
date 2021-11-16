@@ -1,0 +1,25 @@
+{
+    "description": "Licenses supported by ECL/Astro Repo JSON Schema 2.0. Subset of SPDX license list",
+    "data": [
+        {
+            "name": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States",
+            "alternateName": "CC-BY-NC-SA-3.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-3.0"
+        },
+        {
+            "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+            "alternateName": "CC-BY-SA-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-SA-4.0"
+        },
+        {
+            "name": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+            "alternateName": "CC-BY-NC-SA-4.0",
+            "url": "https://spdx.org/licenses/CC-BY-NC-SA-4.0"
+        },
+        {
+            "name": "Creative Commons No Rights Reserved",
+            "alternateName": "CC0-1.0",
+            "url": "https://spdx.org/licenses/CC0-1.0"
+        }
+    ]
+}
