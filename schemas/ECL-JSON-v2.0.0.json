@@ -268,34 +268,6 @@
                 "title": "The items schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": {},
-                "examples": [
-                    [
-                        {
-                            "familyName": "JI",
-                            "givenName": "PENG",
-                            "email": "test@gmail.com",
-                            "identifiers": [
-                                {
-                                    "scheme": "ORCID",
-                                    "schemeURI": "https://orcid.org/",
-                                    "identifier": "****-****-****-****",
-                                    "url": "https://orcid.org/****-****-****-****"
-                                }
-                            ],
-                            "affiliation": {
-                                "name": "Columbia University",
-                                "identifiers": [
-                                    {
-                                        "scheme": "ROR",
-                                        "schemeURI": "https://ror.org/",
-                                        "identifier": "00hj8s172",
-                                        "url": "https://ror.org/00hj8s172"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                ],
                 "required": [
                     "familyName",
                     "givenName",
@@ -322,16 +294,6 @@
                             "title": "The items schema",
                             "description": "An explanation about the purpose of this instance.",
                             "default": {},
-                            "examples": [
-                                [
-                                    {
-                                        "scheme": "ORCID",
-                                        "schemeURI": "https://orcid.org/",
-                                        "identifier": "****-****-****-****",
-                                        "url": "https://orcid.org/****-****-****-****"
-                                    }
-                                ]
-                            ],
                             "required": [
                                 "scheme",
                                 "schemeURI",
@@ -379,16 +341,6 @@
                                     "title": "The items schema",
                                     "description": "An explanation about the purpose of this instance.",
                                     "default": {},
-                                    "examples": [
-                                        [
-                                            {
-                                                "scheme": "ROR",
-                                                "schemeURI": "https://ror.org/",
-                                                "identifier": "00hj8s172",
-                                                "url": "https://ror.org/00hj8s172"
-                                            }
-                                        ]
-                                    ],
                                     "required": [
                                         "scheme",
                                         "schemeURI",
@@ -435,38 +387,6 @@
                 "title": "The items schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": {},
-                "examples": [
-                    [
-                        {
-                            "type": "leadAuthor",
-                            "familyName": "c1",
-                            "givenName": "c1",
-                            "email": "c1@gmail.com",
-                            "identifiers": [
-                                {
-                                    "scheme": "ORCID",
-                                    "schemeURI": "https://orcid.org/",
-                                    "identifier": "****-****-****-****",
-                                    "url": "https://orcid.org/****-****-****-****"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "coAuthor",
-                            "familyName": "c2",
-                            "givenName": "c2",
-                            "email": "c2@gmail.com",
-                            "identifiers": [
-                                {
-                                    "scheme": "ORCID",
-                                    "schemeURI": "https://orcid.org/",
-                                    "value": "****-****-****-****",
-                                    "url": "https://orcid.org/****-****-****-****"
-                                }
-                            ]
-                        }
-                    ]
-                ],
                 "required": [
                     "type",
                     "familyName",
@@ -501,16 +421,6 @@
                             "title": "The items schema",
                             "description": "An explanation about the purpose of this instance.",
                             "default": {},
-                            "examples": [
-                                [
-                                    {
-                                        "scheme": "ORCID",
-                                        "schemeURI": "https://orcid.org/",
-                                        "identifier": "****-****-****-****",
-                                        "url": "https://orcid.org/****-****-****-****"
-                                    }
-                                ]
-                            ],
                             "required": [
                                 "scheme",
                                 "schemeURI",
@@ -554,49 +464,6 @@
                 "title": "The items schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": {},
-                "examples": [
-                    [
-                        {
-                            "bibliographicCitation": "Doe J (2014). Title. Publisher.",
-                            "identifiers": [
-                                {
-                                    "scheme": "DOI",
-                                    "schemeURI": "https://doi.org/",
-                                    "identifier": "10.1093/astrogeo/att121",
-                                    "url": "https://doi.org/10.1093/astrogeo/att121"
-                                }
-                            ],
-                            "relation": "isDocumentedBy",
-                            "type": "publication"
-                        },
-                        {
-                            "bibliographicCitation": "IGSN:DSR000VS0",
-                            "identifiers": [
-                                {
-                                    "scheme": "IGSN",
-                                    "schemeURI": "https://app.geosamples.org/sample/igsn/",
-                                    "identifier": "DSR000VS0",
-                                    "url": "https://app.geosamples.org/sample/igsn/DSR000VS0"
-                                }
-                            ],
-                            "relation": "isCitedBy",
-                            "type": "physicalSample"
-                        },
-                        {
-                            "bibliographicCitation": "SVN:352090",
-                            "identifiers": [
-                                {
-                                    "scheme": "SVN",
-                                    "schemeURI": "https://volcano.si.edu/volcano.cfm?vn=",
-                                    "identifier": "352090",
-                                    "url": "https://volcano.si.edu/volcano.cfm?vn=352090"
-                                }
-                            ],
-                            "relation": "isCitedBy",
-                            "type": "volcano"
-                        }
-                    ]
-                ],
                 "required": [
                     "bibliographicCitation",
                     "identifiers",
@@ -617,16 +484,6 @@
                             "title": "The items schema",
                             "description": "An explanation about the purpose of this instance.",
                             "default": {},
-                            "examples": [
-                                [
-                                    {
-                                        "scheme": "DOI",
-                                        "schemeURI": "https://doi.org/",
-                                        "identifier": "10.1093/astrogeo/att121",
-                                        "url": "https://doi.org/10.1093/astrogeo/att121"
-                                    }
-                                ]
-                            ],
                             "required": [
                                 "scheme",
                                 "schemeURI",
@@ -719,31 +576,6 @@
                 "title": "The items schema",
                 "description": "An explanation about the purpose of this instance.",
                 "default": {},
-                "examples": [
-                    [
-                        {
-                            "identifier": "2026916",
-                            "funder": {
-                                "name": "National Science Foundation",
-                                "identifiers": [
-                                    {
-                                        "scheme": "Crossref Funder ID",
-                                        "schemeURI": "https://doi.org/",
-                                        "identifier": "10.13039/100000001",
-                                        "url": "https://doi.org/10.13039/100000001"
-                                    },
-                                    {
-                                        "scheme": "ROR",
-                                        "schemeURI": "https://ror.org/",
-                                        "identifier": "021nxhr62",
-                                        "url": "https://ror.org/021nxhr62"
-                                    }
-                                ]
-                            },
-                            "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2026916"
-                        }
-                    ]
-                ],
                 "required": [
                     "identifier",
                     "funder",
@@ -775,22 +607,6 @@
                                     "title": "The items schema",
                                     "description": "An explanation about the purpose of this instance.",
                                     "default": {},
-                                    "examples": [
-                                        [
-                                            {
-                                                "scheme": "Crossref Funder ID",
-                                                "schemeURI": "https://doi.org/",
-                                                "identifier": "10.13039/100000001",
-                                                "url": "https://doi.org/10.13039/100000001"
-                                            },
-                                            {
-                                                "scheme": "ROR",
-                                                "schemeURI": "https://ror.org/",
-                                                "identifier": "021nxhr62",
-                                                "url": "https://ror.org/021nxhr62"
-                                            }
-                                        ]
-                                    ],
                                     "required": [
                                         "scheme",
                                         "schemeURI",
