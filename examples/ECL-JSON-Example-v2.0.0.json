@@ -98,6 +98,7 @@
     {
       "familyName": "JI",
       "givenName": "PENG",
+      "additionalName":"L.",
       "email": "test@gmail.com",
       "identifiers": [
         {
@@ -125,7 +126,9 @@
       "type": "leadAuthor",
       "familyName": "c1",
       "givenName": "c1",
+      "additionalName":"K.",
       "email": "c1@gmail.com",
+      "position": 1,
       "identifiers": [
         {
           "scheme": "ORCID",
@@ -139,7 +142,9 @@
       "type": "coAuthor",
       "familyName": "c2",
       "givenName": "c2",
+      "additionalName":"H.",
       "email": "c2@gmail.com",
+      "position": 2,
       "identifiers": [
         {
           "scheme": "ORCID",
