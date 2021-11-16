@@ -3,7 +3,7 @@
     "required": [
         "title",
         "description",
-        "catalog",
+        "community",
         "type",
         "status",
         "identifiers",
@@ -33,8 +33,8 @@
             "description": "Description of the resource.",
             "type": "string"
         },
-        "catalog": {
-            "description": "A data catalog(by community) which contains the resource. Value comes from ECL controlled vocabulary.",
+        "community": {
+            "description": "A network of interacting scientists defined by ECL. Value comes from ECL controlled vocabulary.",
             "enum": [
                 "Geochemistry & Petrology",
                 "Cosmochemistry",
