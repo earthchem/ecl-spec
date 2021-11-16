@@ -16,13 +16,13 @@
         {
             "name": "Crossref Funder ID",
             "alternateName": "CFID",
-            "url": "https://doi.org/10.13039/",
+            "url": "https://doi.org/",
             "category": "organization"
         },      
         {
             "name": "R2R Cruise ID",
-            "alternateName": "R2RCID",
-            "url": "https://doi.org/10.7284/",
+            "alternateName": "R2R",
+            "url": "https://doi.org/",
             "category": "cruise"
         },
         {

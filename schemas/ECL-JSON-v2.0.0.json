@@ -508,7 +508,8 @@
                                     "enum": [
                                         "DOI",
                                         "IGSN",
-                                        "SVN"
+                                        "SVN",
+                                        "R2R"
                                     ],
                                     "type": "string"
                                 },
@@ -628,10 +629,6 @@
                                     "properties": {
                                         "scheme": {
                                             "description": "Persistant identifier scheme.",
-                                            "enum": [
-                                                "Crossref Funder ID",
-                                                "ROR"
-                                            ],
                                             "type": "string"
                                         },
                                         "schemeURI": {
@@ -777,10 +774,10 @@
                 "alternateName": {
                     "description": "Short identifier given to the license.",
                     "enum": [
-                        "CC BY-NC-SA 3.0",
-                        "CC BY-NC-SA 4.0",
-                        "CC BY-SA 4.0",
-                        "CC0"
+                        "CC-BY-NC-SA-3.0",
+                        "CC-BY-NC-SA-4.0",
+                        "CC-BY-SA-4.0",
+                        "CC0-1.0"
                     ],
                     "type": "string"
                 },
@@ -801,11 +798,6 @@
                         "properties": {
                             "scheme": {
                                 "description": "Persistent identifier scheme.",
-                                "enum": [
-                                    "CC License ID",
-                                    "SPDX License ID",
-                                    "OSI License ID"
-                                ],
                                 "type": "string"
                             },
                             "schemeURI": {
