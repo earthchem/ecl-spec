@@ -279,6 +279,10 @@
                     "familyName": {
                         "type": "string"
                     },
+                    "additionalName": {
+                        "description": "Used for a middle initial.",
+                        "type": "string"
+                    },
                     "givenName": {
                         "type": "string"
                     },
@@ -404,6 +408,10 @@
                         "type": "string"
                     },
                     "familyName": {
+                        "type": "string"
+                    },
+                    "additionalName": {
+                        "description": "Used for a middle initial.",
                         "type": "string"
                     },
                     "givenName": {
