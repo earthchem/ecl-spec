@@ -428,9 +428,9 @@
                     "email": {
                         "type": "string"
                     },
-                    "position":{
+                    "position": {
                         "description": "The position of a person in a sequence of contributors.",
-                        "type":"integer"
+                        "type": "integer"
                     },
                     "identifiers": {
                         "description": "Identifier for the contributor.",
@@ -470,6 +470,59 @@
                             },
                             "additionalProperties": false
                         }
+                    },
+                    "affiliation": {
+                        "description": "Affiliation of the creator.",
+                        "required": [
+                            "name",
+                            "identifiers"
+                        ],
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "identifiers": {
+                                "description": "Identifiers for the affiliation.",
+                                "type": "array",
+                                "additionalItems": false,
+                                "items": {
+                                    "type": "object",
+                                    "title": "The items schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": {},
+                                    "required": [
+                                        "scheme",
+                                        "schemeURI",
+                                        "identifier",
+                                        "url"
+                                    ],
+                                    "properties": {
+                                        "scheme": {
+                                            "description": "Persistent identifier scheme for affiliation.",
+                                            "enum": [
+                                                "ROR"
+                                            ],
+                                            "type": "string"
+                                        },
+                                        "schemeURI": {
+                                            "description": "URL of the scheme.",
+                                            "type": "string"
+                                        },
+                                        "identifier": {
+                                            "description": "Identifier for the affiliation under specific scheme.",
+                                            "type": "string"
+                                        },
+                                        "url": {
+                                            "description": "URL for the affiliation under specific scheme.",
+                                            "type": "string"
+                                        }
+                                    },
+                                    "additionalProperties": false
+                                }
+                            }
+                        },
+                        "additionalProperties": false
                     }
                 },
                 "additionalProperties": false
