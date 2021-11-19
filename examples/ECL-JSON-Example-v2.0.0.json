@@ -129,7 +129,6 @@
       "givenName": "c1",
       "additionalName":"K.",
       "email": "c1@gmail.com",
-      "position": 1,
       "identifiers": [
         {
           "scheme": "ORCID",
