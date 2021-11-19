@@ -96,6 +96,7 @@
   "language": "English",
   "creators": [
     {
+      "type": "owner",
       "familyName": "JI",
       "givenName": "PENG",
       "additionalName":"L.",
