@@ -136,7 +136,18 @@
           "identifier": "****-****-****-****",
           "url": "https://orcid.org/****-****-****-****"
         }
-      ]
+      ],
+      "affiliation": {
+        "name": "Columbia University",
+        "identifiers": [
+          {
+            "scheme": "ROR",
+            "schemeURI": "https://ror.org/",
+            "identifier": "00hj8s172",
+            "url": "https://ror.org/00hj8s172"
+          }
+        ]
+      }
     },
     {
       "type": "coAuthor",
@@ -152,7 +163,18 @@
           "value": "****-****-****-****",
           "url": "https://orcid.org/****-****-****-****"
         }
-      ]
+      ],
+      "affiliation": {
+        "name": "Columbia University",
+        "identifiers": [
+          {
+            "scheme": "ROR",
+            "schemeURI": "https://ror.org/",
+            "identifier": "00hj8s172",
+            "url": "https://ror.org/00hj8s172"
+          }
+        ]
+      }
     }
   ],
   "relatedResources": [
