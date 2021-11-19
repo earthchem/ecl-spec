@@ -429,7 +429,7 @@
                         "type": "string"
                     },
                     "position": {
-                        "description": "The position of a person in a sequence of contributors.",
+                        "description": "The position of a person in a sequence of contributors, apply only to 'coAuthor'.",
                         "type": "integer"
                     },
                     "identifiers": {
