@@ -192,13 +192,13 @@
       "type": "publication"
     },
     {
-      "bibliographicCitation": "Doe J (2014). Title. Publisher.",
+      "bibliographicCitation": "Maximiliano Rodriguez. (2020). Xamrodri/Ostracod_mappings v1.0 (v1.0). Zenodo. ",
       "identifiers": [
         {
-          "scheme": "Source Code DOI",
+          "scheme": "DOI",
           "schemeURI": "https://doi.org/",
-          "identifier": "10.1093/astrogeo/att121",
-          "url": "https://doi.org/10.1093/astrogeo/att121"
+          "identifier": "10.5281/zenodo.4308231",
+          "url": "https://doi.org/10.5281/zenodo.4308231"
         }
       ],
       "relation": "isReferencedBy",
