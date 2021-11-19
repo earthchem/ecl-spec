@@ -192,6 +192,19 @@
       "type": "publication"
     },
     {
+      "bibliographicCitation": "Doe J (2014). Title. Publisher.",
+      "identifiers": [
+        {
+          "scheme": "Source Code DOI",
+          "schemeURI": "https://doi.org/",
+          "identifier": "10.1093/astrogeo/att121",
+          "url": "https://doi.org/10.1093/astrogeo/att121"
+        }
+      ],
+      "relation": "isReferencedBy",
+      "type": "sourceCode"
+    },
+    {
       "bibliographicCitation": "IGSN:DSR000VS0",
       "identifiers": [
         {
@@ -276,7 +289,7 @@
       "uploadDate": "2014-11-01"
     }
   ],
-  "licence": {
+  "license": {
     "name": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States",
     "alternateName": "CC BY-NC-SA 3.0",
     "identifiers": [
