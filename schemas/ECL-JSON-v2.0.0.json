@@ -272,6 +272,7 @@
                     "familyName",
                     "givenName",
                     "email",
+                    "type",
                     "identifiers",
                     "affiliation"
                 ],
@@ -287,6 +288,13 @@
                         "type": "string"
                     },
                     "email": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "description": "The type of creator, controlled vocabulary",
+                        "enum": [
+                            "owner"
+                        ],
                         "type": "string"
                     },
                     "identifiers": {
