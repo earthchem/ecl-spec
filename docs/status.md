@@ -4,15 +4,16 @@
 
 Indication of the progress status of the resource. Value comes from ECL controlled vocabulary.
 
-**Table — Metadata for the status property**
+## Table — Metadata for the status property
 
 | Attribute | Value |
 | --------- | ----- |
 | Required | Yes |
 | Cardinality | 1..1 |
+| Type | string |
 | Allowed values | ECL Controlled vocabulary |
 
-**Table — Vocabulary of status**
+## Table — Vocabulary of status
 
 | Term | Description |
 | --------- | ----- |
