@@ -2,18 +2,18 @@
 
 ## Description
 
-Indication of the progress status of the resource. Value comes from ECL controlled vocabulary.
+Indication of the progress status of the resource. Values come from ECL/AstroRepo controlled vocabulary.
 
-## Table — Metadata for the status property
+### Table — Metadata for the status property
 
 | Attribute | Value |
 | --------- | ----- |
 | Required | Yes |
 | Cardinality | 1..1 |
 | Type | string |
-| Allowed values | ECL Controlled vocabulary |
+| Allowed values | Terms of status vocabulary |
 
-## Table — Vocabulary of status
+### Table — Vocabulary of status
 
 | Term | Description |
 | --------- | ----- |
@@ -22,6 +22,10 @@ Indication of the progress status of the resource. Value comes from ECL controll
 | published | Approved by ECL staff, DOI assigned (unless user opted out), metadata viewable on the ECL interface. If after Release Date, file(s) available for download. |
 | rejected | Submitted by user but rejected by ECL (e.g., inappropriate content). |
 | archived | A previously public submission that has since been archived and is no longer available for metadata view or file download. |
+
+## Intent
+
+Status is important for records life-cycle(creation and maintainance) management.
 
 ## Usage
 
