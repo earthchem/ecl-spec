@@ -1,4 +1,4 @@
-# status
+# status | string
 
 ## Description
 
@@ -10,7 +10,6 @@ Indication of the progress status of the resource. Values come from ECL/AstroRep
 | --------- | ----- |
 | Required | Yes |
 | Cardinality | 1..1 |
-| Type | string |
 | Allowed values | Terms of status vocabulary |
 
 ### Table — Vocabulary of status
@@ -36,3 +35,9 @@ Status is important for records life-cycle(creation and maintainance) management
 * THe **status** will be changed from **submitted** to **incomplete** by reviewer if furthur modification required after the review.
 * User can not modify or delete the record when the **status** is one of **submitted**, **published**, and **archived**.
 * User can modify or delete the record when the **status** is **incomplete**.
+
+## Mappings
+
+| ECL | Zenodo (record-v1.0.0) |
+| --------- | ----- |
+| status (string) | _deposit::status (string) |

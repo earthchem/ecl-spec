@@ -1,4 +1,4 @@
-# type
+# type | string
 
 ## Description
 
@@ -10,7 +10,6 @@ The nature or genre of the resource.Values come from DCMI Type Vocabulary.
 | --------- | ----- |
 | Required | Yes |
 | Cardinality | 1..1 |
-| Type | string |
 | Allowed values | Terms of type vocabulary |
 
 ### Table — Vocabulary of type
