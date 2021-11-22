@@ -1,4 +1,4 @@
-# community
+# community | string
 
 ## Description
 
@@ -28,3 +28,9 @@ A network of interacting scientists defined by ECL/AstroRepo. Values come from E
 ## Intent
 
 Community is used to categorize ECL/AstroRepo records at the community level.
+
+## Mappings
+
+| ECL | DataCite (V4.3) | Zenodo (record-v1.0.0) |
+| --------- | ----- | ----- |
+| community (string) |  | communities (array of string) |
