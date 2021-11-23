@@ -260,7 +260,7 @@
             "type": "string"
         },
         "creators": {
-            "description": "Creators of the resource.",
+            "description": "The people who create and maintain resource metadata.",
             "type": "array",
             "additionalItems": false,
             "items": {
