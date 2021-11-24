@@ -6,57 +6,57 @@
             "description": "Digital Object Identifier; a character string used to uniquely identify an object. A DOI name is divided into two parts, a prefix and a suffix, separated by a slash.",
             "alternateName": "DOI",
             "url": "https://doi.org/",
-            "category": "publication"
+            "usage": ["identifiers", "relatedResources"]
         },
         {
             "name": "Bibliographic code",
             "description": "Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa.",
             "alternateName": "Bibcode",
             "url": "https://ui.adsabs.harvard.edu/abs/",
-            "category": "publication"
+            "usage": ["identifiers", "relatedResources"]
         },
         {
             "name": "Crossref Funder ID",
             "alternateName": "CFID",
             "url": "https://doi.org/",
-            "category": "organization"
+            "usage": ["funder"]
         },
         {
             "name": "R2R Cruise ID",
             "alternateName": "R2R",
             "url": "https://doi.org/",
-            "category": "cruise"
+            "usage": ["relatedResources"]
         },
         {
             "name": "Open Researcher and Contributor ID",
             "alternateName": "ORCID",
             "url": "https://orcid.org/",
-            "category": "person"
+            "usage": ["creators", "contributors"]
         },
         {
             "name": "Research Organization Registry",
             "alternateName": "ROR",
             "url": "https://ror.org/",
-            "category": "organization"
+            "usage": ["affiliation", "funder"]
         },
         {
             "name": "The Software Package Data Exchange License ID",
             "alternateName": "SPDX",
             "url": "https://spdx.org/licenses/",
-            "category": "license"
+            "usage": "license"
         },
         {
             "name": "International Global Sample Number",
             "description": "International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.",
             "alternateName": "IGSN",
             "url": "https://app.geosamples.org/sample/igsn/",
-            "category": "physicalSample"
+            "usage": ["relatedResources"]
         },
         {
             "name": "Smithsonian Volcano Number",
             "alternateName": "SVN",
             "url": "https://volcano.si.edu/volcano.cfm?vn=",
-            "category": "volcano"
+            "usage": ["relatedResources"]
         }
     ]
 }
