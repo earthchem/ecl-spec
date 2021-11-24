@@ -16,12 +16,6 @@
             "usage": ["identifiers", "relatedResources"]
         },
         {
-            "name": "Crossref Funder ID",
-            "alternateName": "CFID",
-            "url": "https://doi.org/",
-            "usage": ["funder"]
-        },
-        {
             "name": "R2R Cruise ID",
             "alternateName": "R2R",
             "url": "https://doi.org/",

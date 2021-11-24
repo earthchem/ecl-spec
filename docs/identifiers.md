@@ -19,7 +19,6 @@ A standard data structure appered in different level of the JSON data of the rec
 | --------- | ----- | --------- | ----- | ----- |
 | DOI | Digital Object Identifier | https://doi.org/ | {identifiers, relatedResources} | Digital Object Identifier; a character string used to uniquely identify an object. A DOI name is divided into two parts, a prefix and a suffix, separated by a slash. |
 | Bibcode | Bibliographic code | https://ui.adsabs.harvard.edu/abs/ | {identifiers, relatedResources} | Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa. |
-| CFID | Crossref Funder ID | https://doi.org/ | {funder} | ----- |
 | R2R | R2R Cruise ID | https://doi.org/ | {relatedResources} | ----- |
 | ORCID | Open Researcher and Contributor ID | https://orcid.org/ | {creators, contributors} | ----- |
 | ROR | Research Organization Registry | https://ror.org/ | {affiliation, funder} | ----- |
