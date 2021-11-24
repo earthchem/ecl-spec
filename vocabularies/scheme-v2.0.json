@@ -34,12 +34,6 @@
             "usage": ["affiliation", "funder"]
         },
         {
-            "name": "The Software Package Data Exchange License ID",
-            "alternateName": "SPDX",
-            "url": "https://spdx.org/licenses/",
-            "usage": "license"
-        },
-        {
             "name": "International Global Sample Number",
             "description": "International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.",
             "alternateName": "IGSN",
