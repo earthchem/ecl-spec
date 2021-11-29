@@ -16,8 +16,9 @@
             "usage": ["identifiers", "relatedResources"]
         },
         {
-            "name": "R2R Cruise ID",
-            "alternateName": "R2R",
+            "name": "Oceanographic Cruise DOI",
+            "description": "DOI for research cruise, registered by R2R, IFREMER, etc..",
+            "alternateName": "OCDOI",
             "url": "https://doi.org/",
             "usage": ["relatedResources"]
         },
