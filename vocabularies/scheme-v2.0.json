@@ -37,7 +37,7 @@
             "name": "International Global Sample Number",
             "description": "International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.",
             "alternateName": "IGSN",
-            "url": "https://app.geosamples.org/sample/igsn/",
+            "url": "http://igsn.org/",
             "usage": ["relatedResources"]
         },
         {
