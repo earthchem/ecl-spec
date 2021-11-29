@@ -6,68 +6,93 @@
             "description": "Digital Object Identifier; a character string used to uniquely identify an object. A DOI name is divided into two parts, a prefix and a suffix, separated by a slash.",
             "alternateName": "DOI",
             "url": "https://doi.org/",
-            "usage": ["identifiers", "relatedResources"]
+            "usage": [
+                "identifiers",
+                "relatedResources"
+            ]
         },
         {
             "name": "Bibliographic code",
             "description": "Astrophysics Data System bibliographic codes; a standardized 19 character identifier according to the syntax yyyyjjjjjvvvvmppppa.",
             "alternateName": "Bibcode",
             "url": "https://ui.adsabs.harvard.edu/abs/",
-            "usage": ["identifiers", "relatedResources"]
+            "usage": [
+                "identifiers",
+                "relatedResources"
+            ]
         },
         {
             "name": "Oceanographic Cruise DOI",
             "description": "DOI for research cruise, registered by R2R, IFREMER, etc..",
             "alternateName": "OCDOI",
             "url": "https://doi.org/",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         },
         {
             "name": "Source Code DOI",
             "description": "DOI for software source code, usually registered through the Zenodo repository.",
             "alternateName": "SCID",
             "url": "https://doi.org/",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         },
         {
             "name": "Open Researcher and Contributor ID",
             "alternateName": "ORCID",
             "url": "https://orcid.org/",
-            "usage": ["creators", "contributors"]
+            "usage": [
+                "creators",
+                "contributors"
+            ]
         },
         {
-            "name": "Research Organization Registry",
-            "alternateName": "ROR",
+            "name": "Research Organization Registry ID",
+            "description": "Unique identifiers for every research organization in the world maintained by Research Organization Registry.",
+            "alternateName": "RORID",
             "url": "https://ror.org/",
-            "usage": ["affiliation", "funder"]
+            "usage": [
+                "affiliation",
+                "funder"
+            ]
         },
         {
             "name": "International Global Sample Number",
             "description": "International Geo Sample Number; a 9-digit alphanumeric code that uniquely identifies samples from our natural environment and related sampling features.",
             "alternateName": "IGSN",
             "url": "http://igsn.org/",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         },
         {
             "name": "Smithsonian Volcano Number",
-            "description":"Unique identifier for volcanoes documented in the Volcanoes of the World (VOTW) database maintained by GVP.",
+            "description": "Unique identifier for volcanoes documented in the Volcanoes of the World (VOTW) database maintained by GVP.",
             "alternateName": "VNum",
             "url": "https://volcano.si.edu/volcano.cfm?vn=",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         },
         {
             "name": "Mission ID",
-            "description":"U.S. missions with science goals to study planets, moons, asteroids and comets beyond Earth orbit.",
+            "description": "U.S. missions with science goals to study planets, moons, asteroids and comets beyond Earth orbit.",
             "alternateName": "MissionID",
             "url": "https://solarsystem.nasa.gov/missions/",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         },
         {
             "name": "Appolo Sample Generic Number",
-            "description":"Five-digit number for each sample returned by Apollo missions.",
+            "description": "Five-digit number for each sample returned by Apollo missions.",
             "alternateName": "ASGN",
             "url": "https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=",
-            "usage": ["relatedResources"]
+            "usage": [
+                "relatedResources"
+            ]
         }
     ]
 }
