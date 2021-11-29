@@ -60,6 +60,13 @@
             "alternateName": "MissionID",
             "url": "https://solarsystem.nasa.gov/missions/",
             "usage": ["relatedResources"]
+        },
+        {
+            "name": "Appolo Sample Generic Number",
+            "description":"Five-digit number for each sample returned by Apollo missions.",
+            "alternateName": "ASGN",
+            "url": "https://curator.jsc.nasa.gov/lunar/samplecatalog/sampleinfo.cfm?sample=",
+            "usage": ["relatedResources"]
         }
     ]
 }
