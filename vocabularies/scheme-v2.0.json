@@ -22,6 +22,13 @@
             "usage": ["relatedResources"]
         },
         {
+            "name": "Source Code DOI",
+            "description": "DOI for software source code, usually registered through the Zenodo repository.",
+            "alternateName": "SCID",
+            "url": "https://doi.org/",
+            "usage": ["relatedResources"]
+        },
+        {
             "name": "Open Researcher and Contributor ID",
             "alternateName": "ORCID",
             "url": "https://orcid.org/",
