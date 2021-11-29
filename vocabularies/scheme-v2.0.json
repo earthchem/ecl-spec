@@ -50,7 +50,8 @@
         },
         {
             "name": "Smithsonian Volcano Number",
-            "alternateName": "SVN",
+            "description":"Unique identifier for volcanoes documented in the Volcanoes of the World (VOTW) database maintained by GVP.",
+            "alternateName": "VNum",
             "url": "https://volcano.si.edu/volcano.cfm?vn=",
             "usage": ["relatedResources"]
         },
