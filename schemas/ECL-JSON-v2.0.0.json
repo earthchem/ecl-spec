@@ -539,7 +539,8 @@
                 "required": [
                     "bibliographicCitation",
                     "identifiers",
-                    "relation"
+                    "relation",
+                    "type"
                 ],
                 "properties": {
                     "bibliographicCitation": {
@@ -623,6 +624,15 @@
                             "isObsoletedBy",
                             "obsoletes",
                             "isPublishedIn"
+                        ],
+                        "type": "string"
+                    },
+                    "type": {
+                        "description": "Type of the related resource.",
+                        "enum": [
+                            "publication",
+                            "phsicalSample",
+                            "volcano"
                         ],
                         "type": "string"
                     }
