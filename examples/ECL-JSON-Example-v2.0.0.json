@@ -34,8 +34,10 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            102,
-            0.5
+            {
+              "lon": 102,
+              "lat": 0.5
+            }
           ]
         }
       },
@@ -43,22 +45,22 @@
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [
-              102,
-              0
-            ],
-            [
-              103,
-              1
-            ],
-            [
-              104,
-              0
-            ],
-            [
-              105,
-              1
-            ]
+            {
+              "lon": 102,
+              "lat": 0
+            },
+            {
+              "lon": 103,
+              "lat": 1
+            },
+            {
+              "lon": 104,
+              "lat": 0
+            },
+            {
+              "lon": 105,
+              "lat": 1.5
+            }
           ]
         }
       },
@@ -67,26 +69,26 @@
           "type": "Polygon",
           "coordinates": [
             [
-              [
-                100,
-                0
-              ],
-              [
-                101,
-                0
-              ],
-              [
-                101,
-                1
-              ],
-              [
-                100,
-                1
-              ],
-              [
-                100,
-                0
-              ]
+              {
+                "lon": 100,
+                "lat": 0
+              },
+              {
+                "lon": 101,
+                "lat": 0
+              },
+              {
+                "lon": 101,
+                "lat": 1
+              },
+              {
+                "lon": 100,
+                "lat": 1
+              },
+              {
+                "lon": 100,
+                "lat": 0
+              }
             ]
           ]
         }
@@ -99,7 +101,7 @@
       "type": "owner",
       "familyName": "JI",
       "givenName": "PENG",
-      "additionalName":"L.",
+      "additionalName": "L.",
       "email": "test@gmail.com",
       "identifiers": [
         {
@@ -127,7 +129,7 @@
       "type": "leadAuthor",
       "familyName": "c1",
       "givenName": "c1",
-      "additionalName":"K.",
+      "additionalName": "K.",
       "email": "c1@gmail.com",
       "identifiers": [
         {
@@ -153,7 +155,7 @@
       "type": "coAuthor",
       "familyName": "c2",
       "givenName": "c2",
-      "additionalName":"H.",
+      "additionalName": "H.",
       "email": "c2@gmail.com",
       "position": 2,
       "identifiers": [
