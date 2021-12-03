@@ -216,7 +216,25 @@
                                         "type": "array",
                                         "additionalItems": false,
                                         "items": {
-                                            "type": "integer"
+                                            "type": "object",
+                                            "required": [
+                                                "lon",
+                                                "lat"
+                                            ],
+                                            "properties": {
+                                                "lon": {
+                                                    "description": "longitude",
+                                                    "type": "number"
+                                                },
+                                                "lat": {
+                                                    "description": "latitude",
+                                                    "type": "number"
+                                                },
+                                                "alt": {
+                                                    "description": "altitude",
+                                                    "type": "number"
+                                                }
+                                            }
                                         }
                                     }
                                 },
