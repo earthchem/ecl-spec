@@ -114,6 +114,11 @@
             "pattern": "((?:19|20)[0-9][0-9])-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])",
             "type": "string"
         },
+        "dateIssued": {
+            "description": "The date on which The DOI was assigned to the resource.",
+            "pattern": "((?:19|20)[0-9][0-9])-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])",
+            "type": "string"
+        },
         "datePublished": {
             "description": "The date of the files contained in the resource to be allowed for downloading.",
             "pattern": "((?:19|20)[0-9][0-9])-(0?[1-9]|1[012])-(0?[1-9]|[12][0-9]|3[01])",
