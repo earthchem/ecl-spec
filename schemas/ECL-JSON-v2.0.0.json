@@ -686,12 +686,17 @@
                         "description": "A person or organization that provides money for a particular purpose.",
                         "required": [
                             "name",
+                            "alternateName",
                             "identifiers"
                         ],
                         "type": "object",
                         "properties": {
                             "name": {
                                 "description": "Name given to the funder.",
+                                "type": "string"
+                            },
+                            "alternateName": {
+                                "description": "Abbreviation for the given funder name.",
                                 "type": "string"
                             },
                             "identifiers": {
