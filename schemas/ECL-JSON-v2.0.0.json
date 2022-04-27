@@ -846,7 +846,7 @@
                 "additionalProperties": false
             }
         },
-        "licence": {
+        "license": {
             "description": "The license for all files contained in the resource.",
             "required": [
                 "name",
